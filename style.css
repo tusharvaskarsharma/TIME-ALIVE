@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f7a8d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: url('LoveIcon.png'); /* Replace with your image name */
+  background-size: 500px ;      /* Makes the image cover the whole page */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;/* Prevents repeating the image */
+}
+
+
+.timer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.time-box {
+  background: #fdc3ef;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 5px 25px rgba(235, 20, 31, 0.485);
+  text-align: center;
+  min-width: 100px;
+  border: 2px solid #f14646c0;
+}
+
+.value {
+  font-size: 2.5em;
+  color: #f11fbd;
+  transition: all 0.3s ease-in-out;
+}
+
+.label {
+  font-size: 0.8em;
+  color: #fc4848;
+}
