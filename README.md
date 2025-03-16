@@ -46,4 +46,8 @@ If you want to change the date:
 5. Save
 <br><br>
 
+<h2> DEMO :- </h2>
+<br>
+<img src="/assests/image.png" alt="DEMO IMAGE">
+<br><br><br>
 - Tushar
